@@ -1,0 +1,90 @@
+body {
+    font-family: "Gilroy", Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+a, .nav-link {
+    color:black;
+    text-decoration:none;
+}
+
+.mailto {
+    text-decoration:none;
+    color: #9c69a6;
+    border-bottom: 2px dotted #9c69a6;
+    margin-left: 5px;
+}
+
+
+.my-carousel  {
+    padding: 0;
+}
+
+.my-carousel .carousel-item {
+    max-height: 530px;
+}
+
+.my-carousel .carousel-item img{
+    object-fit: cover;
+}
+
+.btn-secondary, .btn-primary {
+    background: #a46497;
+    border-color: #a46497;
+}
+
+.about img {
+    width: 300px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card:hover {
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.footer {
+    padding-top: 20px;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #aaa;
+
+}
+
+.list-unstyled1, .list-unstyled2, .list-unstyled3{
+    list-style-type:none;
+}
+
+.list-unstyled1 {
+    text-align:left;
+}
+
+.list-unstyled2 {
+    text-align:center;
+}
+
+.list-unstyled3 {
+    text-align:right;
+}
+
+
+.form-control {
+    width: 70%;
+    writing-mode: horizontal-tb !important;
+}
+
+
+.login:hover {
+    transform: scale(1.2);
+}
+
+.catalog {
+    margin: 10px;
+}
+
+.inline {
+    display:inline-block;
+}
